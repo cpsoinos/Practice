@@ -10,7 +10,7 @@
 
     <ul>
       <% tasks.each do |task| %>
-        <li><a href="/tasks/<%= task %>"><%= task %></a></li>
+        <li><a href="/tasks/<%= task["name"] %>"><%= task["name"] %></a></li>
       <% end %>
     </ul>
 
